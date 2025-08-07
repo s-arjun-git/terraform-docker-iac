@@ -28,36 +28,37 @@ terraform-docker-iac/
 ```bash
 git clone https://github.com/<your-username>/terraform-docker-iac.git
 cd terraform-docker-iac
+```
 
-2. Initialize Terraform
+### 2. Initialize Terraform
 
 terraform init
 
-3. Preview Plan
+### 3. Preview Plan
 
 terraform plan
 
-4. Apply the Configuration
+### 4. Apply the Configuration
 
 terraform apply
 
-✔️ This pulls the Nginx image and starts a container on port 8080.
+### ✔️ This pulls the Nginx image and starts a container on port 8080.
 
 Visit: http://localhost:8080
-5. Check State
+### 5. Check State
 
 terraform state list
 
-6. Destroy the Container
+### 6. Destroy the Container
 
 terraform destroy
 
-✅ Outputs
+### ✅ Outputs
 
     A running Docker container named nginx-terraform
 
     Terraform-managed state file and logs (optional)
 
-📘 Reference
+### 📘 Reference
 
     Terraform Docker Provider Docs
